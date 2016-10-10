@@ -1,2 +1,2 @@
-# graphcool-styles
+# styles
 Shared style resources between Graphcool projects
