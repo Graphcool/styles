@@ -1,0 +1,5 @@
+@import './particles.css';
+
+.buttn {
+  @inherit: .primary, .bg-center;
+}

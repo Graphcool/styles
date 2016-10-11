@@ -1,0 +1,40 @@
+{
+  "name": "graphcool-styles",
+  "version": "0.0.0",
+  "description": "Shared style resources between Graphcool projects",
+  "main": "dist/build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
+    "build": "rm -rf dist && tcm css -c -o dist && tsc -d variables/*.ts --outDir dist && NODE_ENV=production webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graphcool/styles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graphcool/styles/issues"
+  },
+  "homepage": "https://github.com/graphcool/styles#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^2.2.4",
+    "css-loader": "^0.25.0",
+    "cssnano": "^3.7.7",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "file-loader": "^0.9.0",
+    "postcss-import": "^8.1.0",
+    "postcss-inherit": "^4.0.1",
+    "postcss-loader": "^0.13.0",
+    "postcss-simple-vars": "^3.0.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.1",
+    "svgo-loader": "^1.1.0",
+    "tslint": "^3.15.1",
+    "tslint-config-standard": "^1.3.0",
+    "tslint-loader": "^2.1.5",
+    "typescript": "^2.0.3",
+    "webpack": "^2.1.0-beta.25"
+  }
+}
