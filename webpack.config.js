@@ -23,7 +23,6 @@ module.exports = {
     }, {
       test: /\.css/,
       loader: ExtractTextPlugin.extract({
-        fallbackLoader: 'style',
         loader: 'css?modules!postcss'
       }),
     }, {
