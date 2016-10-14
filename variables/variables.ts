@@ -4,7 +4,7 @@ export const blue: string = '#2A7ED2'
 export const darkBlue: string = '#172A3A'
 export const darkerBlue: string = '#0F202E'
 
-// Grays (mostly for overlays)
+// Grays & whites (mostly for overlays)
 export const gray04: string = 'rgba(0,0,0,0.04)'
 export const gray07: string = 'rgba(0,0,0,0.07)'
 export const gray10: string = 'rgba(0,0,0,0.1)'
@@ -16,6 +16,18 @@ export const gray60: string = 'rgba(0,0,0,0.6)'
 export const gray70: string = 'rgba(0,0,0,0.7)'
 export const gray80: string = 'rgba(0,0,0,0.8)'
 export const gray90: string = 'rgba(0,0,0,0.9)'
+
+export const white04: string = 'rgba(255,255,255,0.04)'
+export const white07: string = 'rgba(255,255,255,0.07)'
+export const white10: string = 'rgba(255,255,255,0.1)'
+export const white20: string = 'rgba(255,255,255,0.2)'
+export const white30: string = 'rgba(255,255,255,0.3)'
+export const white40: string = 'rgba(255,255,255,0.4)'
+export const white50: string = 'rgba(255,255,255,0.5)'
+export const white60: string = 'rgba(255,255,255,0.6)'
+export const white70: string = 'rgba(255,255,255,0.7)'
+export const white80: string = 'rgba(255,255,255,0.8)'
+export const white90: string = 'rgba(255,255,255,0.9)'
 
 // Basic Size Grid
 export const size04: string = '4px'
