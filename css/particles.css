@@ -476,7 +476,7 @@
      -l  = large
 
 */
-/*.tracked { letter-spacing: .1em; }*/
+.tracked { letter-spacing: 1px; }
 /*.tracked-tight { letter-spacing: -.05em; }*/
 /*.tracked-mega { letter-spacing: .25em; }*/
 /*
@@ -862,6 +862,9 @@
 .f14 { font-size: $size14; }
 .f10 { font-size: $size10; }
 .f16 { font-size: $size16; }
+
+.f20 { font-size: 20px; }
+
 .f25 { font-size: $size25; }
 .f38 { font-size: $size38; }
 .f60 { font-size: $size60; }
