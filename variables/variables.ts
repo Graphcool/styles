@@ -1,4 +1,6 @@
-// Accent Colors
+// Base Colors
+export const black: string = '#000'
+export const white: string = '#fff'
 export const green: string = '#27AE60'
 export const blue: string = '#2A7ED2'
 export const darkBlue: string = '#172A3A'
@@ -42,3 +44,7 @@ export const size96: string = '96px'
 // Additional Sizes
 export const size12: string = '12px'
 export const size14: string = '14px'
+
+// Other Constants
+
+export const duration: string = '.1s'
