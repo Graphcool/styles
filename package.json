@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "^6.0.45",
+    "@types/react": "^0.14.41",
     "awesome-typescript-loader": "^2.2.4",
     "css-loader": "^0.25.0",
     "cssnano": "^3.7.7",
