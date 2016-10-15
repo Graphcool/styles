@@ -4,10 +4,6 @@
   version "6.0.45"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.45.tgz#c4842a9d653d767831e4ff495b6008cc0d579966"
 
-"@types/react":
-  version "0.14.41"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-0.14.41.tgz#c8fea92dc28814b2a4f6a86e634fbdb30b54f778"
-
 abbrev@1:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.0.9.tgz#91b4792588a7738c25f35dd6f63752a2f8776135"

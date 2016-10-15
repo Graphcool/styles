@@ -13,7 +13,16 @@ module.exports = {
     path: './dist',
     filename: 'build.js',
     publicPath: '/',
-    libraryTarget: 'commonjs2',
+    library: 'graphcool-styles',
+    libraryTarget: 'umd',
+  },
+  externals: {
+    react: {
+      commonjs: 'react',
+			commonjs2: 'react',
+			amd: 'React',
+			root: 'React',
+    },
   },
   module: {
     rules: [{
@@ -41,7 +50,7 @@ module.exports = {
           postcssImport(),
           postcssInherit,
           postcssSimpleVars({
-            variables: () => require('./dist/variables'),
+            variables: () => require('./dist/variables/variables'),
           }),
           cssnano({
             autoprefixer: {
