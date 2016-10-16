@@ -1,0 +1,19 @@
+machine:
+  node:
+    version: 6
+
+dependencies:
+  override:
+    - npm install
+
+test:
+  override:
+    - npm test
+
+deployment:
+  npm:
+    branch: master
+    commands:
+      - echo -e "$NPM_USERNAME\n$NPM_PASSWORD\n$NPM_EMAIL" | npm login
+      - npm version patch --no-git-tag-version
+      - npm publish
