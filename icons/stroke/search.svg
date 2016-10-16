@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="50px" height="50px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#000000;stroke-linejoin:round;stroke-miterlimit:10;}
-</style>
-<g id="XMLID_1_">
-	<circle id="XMLID_7_" class="st0" cx="17.82" cy="18.11" r="16.21"/>
-	<line id="XMLID_6_" class="st0" x1="29.28" y1="29.57" x2="48.21" y2="48.5"/>
-</g>
+<svg width="50px" height="50px" viewBox="0 0 50 50">
+	<circle cx="17.82" cy="18.11" r="16.21"/>
+	<line x1="29.28" y1="29.57" x2="48.21" y2="48.5"/>
 </svg>

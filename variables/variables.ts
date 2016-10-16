@@ -1,10 +1,15 @@
 // Base Colors
 export const black: string = '#000'
 export const white: string = '#fff'
-export const green: string = '#27AE60'
-export const blue: string = '#2A7ED2'
-export const darkBlue: string = '#172A3A'
-export const darkerBlue: string = '#0F202E'
+export const green: string = 'rgba(39,174,96,1)'
+export const blue: string = 'rgba(42,126,210,1)'
+export const darkBlue: string = 'rgba(23,42,58,1)'
+export const darkerBlue: string = 'rgba(15,32,46,1)'
+
+export const green0: string = 'rgba(39,174,96,0)'
+export const blue0: string = 'rgba(42,126,210,0)'
+export const darkBlue0: string = 'rgba(23,42,58,0)'
+export const darkerBlue0: string = 'rgba(15,32,46,0)'
 
 // Grays & whites (mostly for overlays)
 export const gray04: string = 'rgba(0,0,0,0.04)'
