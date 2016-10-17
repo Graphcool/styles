@@ -1,12 +1,12 @@
 {
   "name": "graphcool-styles",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "Shared style resources between Graphcool projects",
   "main": "dist/build.js",
   "files": [
     "dist",
     "icons",
-    "index.d.ts"
+    "index.ts"
   ],
   "scripts": {
     "test": "tslint {components,variables}/**/*.ts{,x}",
