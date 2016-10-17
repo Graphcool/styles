@@ -1,11 +1,9 @@
-import Icon from './components/Icon/Icon'
-import * as variables from './variables/variables'
-const particles: any = require('./css/particles.css')
-const virtual: any = require('./css/virtual.css')
+import * as _particles from './dist/particles.css'
+import * as _virtual from './dist/virtual.css'
+import * as _variables from './dist/variables/variables'
 
-export {
-  Icon,
-  variables,
-  particles,
-  virtual,
-}
+export import particles = _particles
+export import virtual = _virtual
+export import variables = _variables
+
+export const Icon  = require('./dist/components/Icon/Icon').default
