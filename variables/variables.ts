@@ -51,4 +51,8 @@ export const size12: string = '12px'
 export const size14: string = '14px'
 
 // Other Constants
+
+export const copyLineheight: string = '1.5'
+export const titleLineheight: string = '1.3'
+
 export const duration: string = '.1s'

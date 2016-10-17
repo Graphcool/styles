@@ -178,6 +178,8 @@
    -l  = large
 
  */
+
+.buttonShadow { box-shadow: 0px 1px 3px 0px $gray20}
 /*.shadow-1 { box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 ); }*/
 /*.shadow-2 { box-shadow: 0px 0px 8px 2px rgba( 0, 0, 0, 0.2 ); }*/
 /*.shadow-3 { box-shadow: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ); }*/
@@ -491,8 +493,8 @@
 
 */
 .lhSolid { line-height: 1; }
-.lhTitle { line-height: 1.3; }
-.lhCopy { line-height: 1.4; }
+.lhTitle { line-height: $titleLineheight; }
+.lhCopy { line-height: $copyLineheight; }
 /*
 
    LINKS
