@@ -16,11 +16,12 @@ export default class Icon extends React.Component<Props, {}> {
     const width = this.props.width || 16
     const height = this.props.height || 16
 
+    const color = this.props.color || '#000'
     const stroke = this.props.stroke || false
     const rotate = this.props.rotate || 0
 
-    const fillCode = this.props.color && !stroke ? `fill="${this.props.color}"` : ''
-    const strokeCode = this.props.color && stroke ? `stroke="${this.props.color}"` : ''
+    const fillCode = !stroke ? `fill="${color}"` : 'fill="none"'
+    const strokeCode = stroke ? `stroke="${color}"` : 'stroke="none"'
     const styleCode = `style="width: ${width}px; height: ${height}px"`
     const html = this.props.src.replace(/<svg/, `<svg ${strokeCode} ${fillCode} ${styleCode}`)
 
