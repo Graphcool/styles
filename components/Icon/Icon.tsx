@@ -8,6 +8,7 @@ export interface Props {
   className?: string
   rotate?: number
   stroke?: boolean
+  strokeWidth?: number
   [key: string]: any
 }
 
@@ -18,11 +19,12 @@ export default class Icon extends React.Component<Props, {}> {
 
     const color = this.props.color || '#000'
     const stroke = this.props.stroke || false
+    const strokeWidth = this.props.strokeWidth || 1
     const rotate = this.props.rotate || 0
 
     const fillCode = !stroke ? `fill="${color}"` : 'fill="none"'
-    const strokeCode = stroke ? `stroke="${color}"` : 'stroke="none"'
-    const styleCode = `style="width: ${width}px; height: ${height}px"`
+    const strokeCode = stroke ? `stroke="${color}" stroke-width="${strokeWidth}px"` : 'stroke="none"'
+    const styleCode = `style="width: ${width}px; height: ${height}px;"`
     const html = this.props.src.replace(/<svg/, `<svg ${strokeCode} ${fillCode} ${styleCode}`)
 
     const restProps = Object.assign({}, this.props)

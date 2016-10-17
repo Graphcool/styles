@@ -654,6 +654,8 @@
 .blue { color: $blue; }
 .darkBlue { color: $darkBlue; }
 .darkerBlue { color: $darkerBlue; }
+.orange { color: $orange; }
+.red { color: $red; }
 
 /* Background colors */
 
@@ -685,6 +687,8 @@
 .bgBlue { background-color: $blue; }
 .bgDarkBlue { background-color: $darkBlue; }
 .bgDarkerBlue { background-color: $darkerBlue; }
+.bgOrange { background-color: $orange; }
+.bgrRed { background-color: $red; }
 
 
 /*
