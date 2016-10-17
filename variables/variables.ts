@@ -51,5 +51,4 @@ export const size12: string = '12px'
 export const size14: string = '14px'
 
 // Other Constants
-
 export const duration: string = '.1s'
