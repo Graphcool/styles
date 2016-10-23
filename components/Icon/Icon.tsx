@@ -1,4 +1,5 @@
 import * as React from 'react'
+const objectAssign: any = require('object-assign')
 
 export interface Props {
   src: any
@@ -27,7 +28,7 @@ export default class Icon extends React.Component<Props, {}> {
     const styleCode = `style="width: ${width}px; height: ${height}px;"`
     const html = this.props.src.replace(/<svg/, `<svg ${strokeCode} ${fillCode} ${styleCode}`)
 
-    const restProps = Object.assign({}, this.props)
+    const restProps = objectAssign({}, this.props)
     delete restProps.width
     delete restProps.height
     delete restProps.stroke
