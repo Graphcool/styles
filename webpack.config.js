@@ -30,9 +30,15 @@ module.exports = {
       test: /\.ts(x?)$/,
       loader: 'tslint',
     }, {
-      test: /\.css/,
+      test: /\.css$/,
+      exclude: /particles\.css/,
       loader: ExtractTextPlugin.extract({
-        loader: 'css?modules!postcss'
+        loader: 'css?modules!postcss',
+      }),
+    }, {
+      test: /particles\.css$/,
+      loader: ExtractTextPlugin.extract({
+        loader: 'css?modules&localIdentName=[local]!postcss',
       }),
     }, {
       test: /\.ts(x?)$/,

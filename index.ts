@@ -5,9 +5,11 @@ const virtual: any = require('./css/virtual.css')
 const base: any = require('./css/base.css')
 
 export {
-    Icon,
-    variables,
-    particles,
-    virtual,
-    base,
+  Icon,
+  variables,
+  variables as $v,
+  particles,
+  particles as $p,
+  virtual,
+  base,
 }

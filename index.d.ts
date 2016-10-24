@@ -5,5 +5,7 @@ import * as _virtual from './dist/virtual.css'
 import * as _variables from './dist/variables/variables'
 
 export import particles = _particles
+export import $p = _particles
 export import virtual = _virtual
 export import variables = _variables
+export import $v = _variables
