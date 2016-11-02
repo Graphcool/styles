@@ -32,6 +32,7 @@ export default class Icon extends React.Component<Props, {}> {
     delete restProps.width
     delete restProps.height
     delete restProps.stroke
+    delete restProps.strokeWidth
     delete restProps.color
     delete restProps.src
     delete restProps.className
