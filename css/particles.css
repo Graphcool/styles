@@ -820,6 +820,7 @@
 .mv96 { margin-top: $size96; margin-bottom: $size96; }
 
 /*Margin left*/
+.mla { margin-right: auto; }
 .ml0 { margin-left: 0; }
 .ml4 { margin-left: $size04; }
 .ml6 { margin-left: $size06; }
@@ -831,6 +832,7 @@
 .ml96 { margin-left: $size96; }
 
 /*Margin right*/
+.mra { margin-right: auto; }
 .mr0 { margin-right: 0; }
 .mr4 { margin-right: $size04; }
 .mr6 { margin-right: $size06; }
