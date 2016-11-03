@@ -6,15 +6,11 @@ export const blue: string = 'rgba(42,126,210,1)'
 export const darkBlue: string = 'rgba(23,42,58,1)'
 export const darkerBlue: string = 'rgba(15,32,46,1)'
 export const orange: string = 'rgba(207,92,54,1)'
-<<<<<<< HEAD
 export const red: string = 'rgba(242,92,84,1)'
-=======
-export const red: string = 'rgba(349,98,60,1)'
 export const accent: string = '#00b861'
 export const lightGreen: string = 'rgba(201,235,215,1)'
 export const lightYellow: string = 'rgba(252,246,169,1)'
 export const lightBrown: string = 'rgba(209,167,0,1)'
->>>>>>> 4c49ddd975f6bc82358026ea591775491b9d695d
 
 export const green0: string = 'rgba(39,174,96,0)'
 export const green50: string = 'rgba(39,174,96,.5)'
@@ -30,7 +26,6 @@ export const orange50: string = 'rgba(207,92,54,.5)'
 export const red0: string = 'rgba(242,92,84,0)'
 export const red50: string = 'rgba(242,92,84,.5)'
 
-// Grays & whites (mostly for overlays)
 export const gray04: string = 'rgba(0,0,0,0.04)'
 export const gray07: string = 'rgba(0,0,0,0.07)'
 export const gray10: string = 'rgba(0,0,0,0.1)'
