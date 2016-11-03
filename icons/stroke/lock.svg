@@ -1,0 +1,10 @@
+<svg width="18px" height="24px" viewBox="0 0 18 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="lock-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <path d="M11,16 C11,17.105 10.105,18 9,18 C7.896,18 7,17.105 7,16 C7,14.894 7.896,14 9,14 C10.105,14 11,14.894 11,16 L11,16 Z" id="Stroke-1" stroke="#000000"></path>
+        <path d="M17.5,13.5 C17.5,11.291 15.709,9.5 13.5,9.5 L4.5,9.5 C2.291,9.5 0.5,11.291 0.5,13.5 L0.5,19.5 C0.5,21.709 2.291,23.5 4.5,23.5 L13.5,23.5 C15.709,23.5 17.5,21.709 17.5,19.5 L17.5,13.5 L17.5,13.5 Z" id="Stroke-3" stroke="#000000"></path>
+        <path d="M3.5,6 C3.5,2.962 5.963,0.5 9,0.5 C12.037,0.5 14.5,2.962 14.5,6 L14.5,9.5 L3.5,9.5 L3.5,6 L3.5,6 Z" id="Stroke-5" stroke="#000000"></path>
+    </g>
+</svg>
