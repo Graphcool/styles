@@ -10,7 +10,6 @@
 /*
 
     BACKGROUND POSITION
-
  */
 .bgCenter { background-repeat: no-repeat; background-position: center center; }
 .bgTop { background-repeat: no-repeat; background-position: top center; }
@@ -656,7 +655,6 @@
 .darkerBlue { color: $darkerBlue; }
 .orange { color: $orange; }
 .red { color: $red; }
-
 /* Background colors */
 
 .bgBlack90 { background-color: rgba( 0, 0, 0, .9 ); }

@@ -12,7 +12,6 @@ export const lightGreen: string = 'rgba(201,235,215,1)'
 export const lightYellow: string = 'rgba(252,246,169,1)'
 export const lightBrown: string = 'rgba(209,167,0,1)'
 
-
 export const green0: string = 'rgba(39,174,96,0)'
 export const green50: string = 'rgba(39,174,96,.5)'
 export const blue0: string = 'rgba(42,126,210,0)'
