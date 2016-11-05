@@ -688,6 +688,10 @@
 .bgOrange { background-color: $orange; }
 .bgrRed { background-color: $red; }
 
+.bgPblue20 { background-color: $pblue20 }
+.bgPred20 { background-color: $pred20 }
+.bgPyellow40 { background-color: $pyellow40 }
+.bgPlightgreen50 { background-color: $plightgreen50 }
 
 /*
    SPACING

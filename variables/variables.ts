@@ -11,6 +11,7 @@ export const accent: string = '#00b861'
 export const lightGreen: string = 'rgba(201,235,215,1)'
 export const lightYellow: string = 'rgba(252,246,169,1)'
 export const lightBrown: string = 'rgba(209,167,0,1)'
+export const toggleGreen: string = 'rgba(126, 211, 33, 1)'
 
 export const green0: string = 'rgba(39,174,96,0)'
 export const green50: string = 'rgba(39,174,96,.5)'
@@ -49,6 +50,19 @@ export const white60: string = 'rgba(255,255,255,0.6)'
 export const white70: string = 'rgba(255,255,255,0.7)'
 export const white80: string = 'rgba(255,255,255,0.8)'
 export const white90: string = 'rgba(255,255,255,0.9)'
+
+// Permission Colors
+export const pblue: string = 'rgba(74,144,226,1)'
+export const pblue20: string = 'rgba(74,144,226,0.2)'
+
+export const pred: string = 'rgba(208,2,27,1)'
+export const pred20: string = 'rgba(208,2,27,0.2)'
+
+export const pbrown: string = 'rgba(174,145,0,1)'
+export const pyellow40: string = 'rgba(248,231,28,0.4)'
+
+export const pgreen: string = 'rgba(39,174,96,1)'
+export const plightgreen50: string = 'rgba(184,233,134,0.5)'
 
 // Basic Size Grid
 export const size04: string = '4px'
