@@ -1,10 +1,15 @@
-<svg width="18px" height="24px" viewBox="0 0 18 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="lock-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
-        <path d="M11,16 C11,17.105 10.105,18 9,18 C7.896,18 7,17.105 7,16 C7,14.894 7.896,14 9,14 C10.105,14 11,14.894 11,16 L11,16 Z" id="Stroke-1" stroke="#000000"></path>
-        <path d="M17.5,13.5 C17.5,11.291 15.709,9.5 13.5,9.5 L4.5,9.5 C2.291,9.5 0.5,11.291 0.5,13.5 L0.5,19.5 C0.5,21.709 2.291,23.5 4.5,23.5 L13.5,23.5 C15.709,23.5 17.5,21.709 17.5,19.5 L17.5,13.5 L17.5,13.5 Z" id="Stroke-3" stroke="#000000"></path>
-        <path d="M3.5,6 C3.5,2.962 5.963,0.5 9,0.5 C12.037,0.5 14.5,2.962 14.5,6 L14.5,9.5 L3.5,9.5 L3.5,6 L3.5,6 Z" id="Stroke-5" stroke="#000000"></path>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="54px" height="54px" viewBox="0 0 54 54" style="enable-background:new 0 0 54 54;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="XMLID_2_">
+	<path id="XMLID_5_" class="st0" d="M31.08,34.96c0,2.2-1.83,3.98-4.08,3.98c-2.25,0-4.08-1.78-4.08-3.98c0-2.2,1.83-3.98,4.08-3.98
+		C29.26,30.98,31.08,32.76,31.08,34.96z"/>
+	<path id="XMLID_4_" class="st0" d="M44.36,29.99c0-4.4-3.66-7.96-8.17-7.96H17.81c-4.51,0-8.17,3.57-8.17,7.96v11.95
+		c0,4.4,3.66,7.96,8.17,7.96h18.38c4.51,0,8.17-3.57,8.17-7.96V29.99z"/>
+	<path id="XMLID_3_" class="st0" d="M15.77,15.05C15.77,9.01,20.8,4.1,27,4.1c6.2,0,11.23,4.9,11.23,10.95v6.97H15.77V15.05z"/>
+</g>
 </svg>
