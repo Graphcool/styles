@@ -689,6 +689,7 @@
 .bgOrange { background-color: $orange; }
 .bgrRed { background-color: $red; }
 
+.brown { color: $pbrown; }
 .bgPblue20 { background-color: $pblue20 }
 .bgPred20 { background-color: $pred20 }
 .bgPyellow40 { background-color: $pyellow40 }
