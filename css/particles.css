@@ -314,6 +314,7 @@
  * https://code.google.com/p/chromium/issues/detail?id=506893 */
 .flex1 { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
 .flexAuto { -webkit-box-flex: 1; -ms-flex: 1 1 auto; flex: 1 1 auto; min-width: 0; /* 1 */ min-height: 0; /* 1 */ }
+.flexSlide { -ms-flex: 0 0 100%; flex: 0 0 100% }
 .flexNone { -webkit-box-flex: 0; -ms-flex: none; flex: none; }
 .flexColumn { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 .flexRow { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
@@ -650,12 +651,15 @@
 .white10 { color: rgba( 255, 255, 255, .1 ); }
 .white { color: #fff; }
 .black { color: #000; }
-.green { color: $green; }
 .blue { color: $blue; }
 .darkBlue { color: $darkBlue; }
 .darkerBlue { color: $darkerBlue; }
 .orange { color: $orange; }
 .red { color: $red; }
+
+.green { color: rgba(39,174,96,1); }
+.green30 { color: rgba(39,174,96,0.3); }
+
 /* Background colors */
 
 .bgBlack90 { background-color: rgba( 0, 0, 0, .9 ); }
@@ -682,12 +686,22 @@
 
 .bgBlack { background-color: #000; }
 .bgWhite { background-color: #fff; }
-.bgGreen { background-color: $green; }
 .bgBlue { background-color: $blue; }
 .bgDarkBlue { background-color: $darkBlue; }
 .bgDarkerBlue { background-color: $darkerBlue; }
 .bgOrange { background-color: $orange; }
 .bgrRed { background-color: $red; }
+
+.bgGreen { background-color: rgba(39,174,96,1); }
+.bgGreen10 { background-color: rgba(39,174,96,0.1); }
+.bgGreen20 { background-color: rgba(39,174,96,0.2); }
+.bgGreen30 { background-color: rgba(39,174,96,0.3); }
+.bgGreen40 { background-color: rgba(39,174,96,0.4); }
+.bgGreen50 { background-color: rgba(39,174,96,0.5); }
+.bgGreen60 { background-color: rgba(39,174,96,0.6); }
+.bgGreen70 { background-color: rgba(39,174,96,0.7); }
+.bgGreen80 { background-color: rgba(39,174,96,0.8); }
+.bgGreen90 { background-color: rgba(39,174,96,0.9); }
 
 .brown { color: $pbrown; }
 .bgPblue20 { background-color: $pblue20 }
