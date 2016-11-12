@@ -15,6 +15,7 @@
     "dist"
   ],
   "include": [
-    "./components/**/*.tsx"
+    "./components/**/*.tsx",
+    "./custom.d.ts"
   ]
 }

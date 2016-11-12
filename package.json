@@ -1,6 +1,6 @@
 {
   "name": "graphcool-styles",
-  "version": "0.0.45",
+  "version": "0.0.46",
   "description": "Shared style resources between Graphcool projects",
   "main": "dist/build.js",
   "files": [
@@ -9,6 +9,7 @@
     "index.d.ts"
   ],
   "scripts": {
+    "start": "webpack-dev-server --hot --inline --progress --history-api-fallback --host 0.0.0.0 --port 4500 --config webpack.exhibition.config.js",
     "test": "tslint {components,variables}/**/*.ts{,x}",
     "bump": "npm version patch --no-git-tag-version && git add package.json",
     "prepublish": "npm run build",
@@ -20,7 +21,7 @@
   ],
   "devDependencies": {
     "@types/node": "^6.0.45",
-    "@types/react": "^0.14.41",
+    "@types/react": "0.14.40",
     "awesome-typescript-loader": "^2.2.4",
     "css-loader": "^0.25.0",
     "cssnano": "^3.7.7",
@@ -44,6 +45,9 @@
     "react": "^0.15.0"
   },
   "dependencies": {
-    "object-assign": "^4.1.0"
+    "html-webpack-plugin": "^2.24.1",
+    "object-assign": "^4.1.0",
+    "react-dom": "^15.3.2",
+    "webpack-dev-server": "^1.16.2"
   }
 }
