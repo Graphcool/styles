@@ -661,6 +661,7 @@
 .green30 { color: rgba(39,174,96,0.3); }
 
 /* Background colors */
+.bgTransparent { background-color: transparent; }
 
 .bgBlack90 { background-color: rgba( 0, 0, 0, .9 ); }
 .bgBlack80 { background-color: rgba( 0, 0, 0, .8 ); }
