@@ -11,7 +11,7 @@ html, body, p, a, h1, h2, h3, h4 {
   padding: 0;
 }
 
-a:active, a:focus {
+a:active, a:focus, button:focus, input:focus {
   outline: none;
 }
 

@@ -91,3 +91,9 @@ export const copyLineheight: string = '1.5'
 export const titleLineheight: string = '1.3'
 
 export const duration: string = '.1s'
+
+// Homepage Constants
+
+export const fontSize32: string = '32px'
+export const fontSize30: string = '30px'
+export const fontSize20: string = '20px'
