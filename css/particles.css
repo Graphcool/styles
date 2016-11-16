@@ -704,6 +704,11 @@
 .bgGreen80 { background-color: rgba(39,174,96,0.8); }
 .bgGreen90 { background-color: rgba(39,174,96,0.9); }
 
+.bgLightgreen10 { background-color: $lightGreen10 }
+.bgLightgreen20 { background-color: $lightGreen20 }
+.bgLightgreen30 { background-color: $lightGreen30 }
+.bgLightgreen50 { background-color: $lightGreen50 }
+
 .brown { color: $pbrown; }
 .bgPblue20 { background-color: $pblue20 }
 .bgPred20 { background-color: $pred20 }
@@ -1083,9 +1088,9 @@
   Dim element on hover by adding the dim class.
 
 */
-.dim { opacity: 1; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
-.dim:hover, .dim:focus { opacity: .5; -webkit-transition: opacity .15s ease-in; transition: opacity .15s ease-in; }
-.dim:active { opacity: .8; -webkit-transition: opacity .15s ease-out; transition: opacity .15s ease-out; }
+.dim { opacity: 1; -webkit-transition: opacity $duration linear; transition: opacity $duration linear; }
+.dim:hover, .dim:focus { opacity: .75; -webkit-transition: opacity $duration linear; transition: opacity $duration linear; }
+.dim:active { opacity: .9; -webkit-transition: opacity $duration linear; transition: opacity $duration linear; }
 /*
 
   Hide child & reveal on hover:

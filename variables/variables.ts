@@ -7,14 +7,21 @@ export const darkBlue: string = 'rgba(23,42,58,1)'
 export const darkerBlue: string = 'rgba(15,32,46,1)'
 export const orange: string = 'rgba(207,92,54,1)'
 export const red: string = 'rgba(242,92,84,1)'
-export const accent: string = '#00b861'
-export const lightGreen: string = 'rgba(201,235,215,1)'
+export const accent: string = '#00b861' // = green !
+export const lightGreen: string = 'rgba(42,189,60,1)'
+
 export const lightYellow: string = 'rgba(252,246,169,1)'
 export const lightBrown: string = 'rgba(209,167,0,1)'
 export const toggleGreen: string = 'rgba(126, 211, 33, 1)'
 
 export const green0: string = 'rgba(39,174,96,0)'
 export const green50: string = 'rgba(39,174,96,.5)'
+
+export const lightGreen10: string = 'rgba(42,189,60,.1)'
+export const lightGreen20: string = 'rgba(42,189,60,.2)'
+export const lightGreen30: string = 'rgba(42,189,60,.3)'
+export const lightGreen50: string = 'rgba(42,189,60,.5)'
+
 export const blue0: string = 'rgba(42,126,210,0)'
 export const blue50: string = 'rgba(42,126,210,.5)'
 export const blue80: string = 'rgba(42,126,210,.8)'

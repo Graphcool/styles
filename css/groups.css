@@ -1,0 +1,66 @@
+@import './particles.css';
+
+.uppercaseButton {
+  /* needs background and color additionally */
+  @inherit .ttu, .pa10, .lhSolid, .br2, .f16, .fw6, .pointer, .dim;
+  /*transition: opacity $duration linear*/
+}
+
+/*.uppercaseButton:hover {*/
+  /*opacity: .9;*/
+/*}*/
+
+/*.button {
+  padding: 10px 19px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 1px;
+  color: gray;
+  cursor: pointer;
+}*/
+
+/*.action_button {
+  @include button;
+  margin-left: 10px;
+}*/
+
+/*.button.green {
+  color: $ accent;
+  background: $ lightGreen;
+}
+
+.button.green:hover {
+  background: $ lightGreen;
+  color: $ accent;
+}
+
+.button.green:hover.svg {
+  fill: #fff;
+}
+
+.button.green.svg {
+  fill: $ accent;
+}
+
+.button.yellow {
+  color: $ lightBrown;
+  background: $ lightYellow;
+}
+
+.button.yellow:hover {
+  background: $ lightYellow;
+  color: $ lightBrown;
+}
+
+.button.yellow:hover.svg {
+  fill: #fff;
+}
+
+.button.yellow.svg {
+  fill: $ lightBrown;
+}*/
+
+
