@@ -18,24 +18,24 @@ module.exports = {
     rules: [{
       enforce: 'pre',
       test: /\.ts(x?)$/,
-      loader: 'tslint',
+      loader: 'tslint-loader',
     }, {
       test: /\.css$/,
       exclude: /particles\.css/,
       loader: ExtractTextPlugin.extract({
-        loader: 'css?modules!postcss',
+        loader: 'css-loader?modules!postcss-loader',
       }),
     }, {
       test: /particles\.css$/,
       loader: ExtractTextPlugin.extract({
-        loader: 'css?modules&localIdentName=[local]!postcss',
+        loader: 'css-loader?modules&localIdentName=[local]!postcss-loader',
       }),
     }, {
       test: /\.ts(x?)$/,
-      loader: 'awesome-typescript',
+      loader: 'awesome-typescript-loader',
     }, {
       test: /icons\/.*\.svg$/,
-      loader: 'raw!svgo',
+      loader: 'raw-loader!svgo-loader',
     }],
   },
   plugins: [
