@@ -6,7 +6,7 @@ body {
   line-height: 1.5;
 }
 
-html, body, p, a, h1, h2, h3, h4 {
+html, body, p, a, h1, h2, h3, h4, ul {
   margin: 0;
   padding: 0;
 }
