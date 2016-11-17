@@ -7,8 +7,15 @@
 */
 .cover { background-size: cover !important; }
 .contain { background-size: contain !important; }
-/*
 
+/*
+    BOX SIZING
+ */
+
+.bbox { box-sizing: border-box; }
+.cbox { box-sizing: content-box; }
+
+/*
     BACKGROUND POSITION
  */
 .bgCenter { background-repeat: no-repeat; background-position: center center; }
@@ -904,6 +911,8 @@
 .f38 { font-size: $size38; }
 .f60 { font-size: $size60; }
 .f96 { font-size: $size96; }
+
+.fInherit {font-size: inherit; }
 
 /* Additional Fontsizes for Homepage */
 
