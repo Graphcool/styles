@@ -9,6 +9,7 @@ body {
 html, body, p, a, h1, h2, h3, h4, ul {
   margin: 0;
   padding: 0;
+  color: inherit;
 }
 
 a:active, a:focus, button:focus, input:focus {
@@ -19,6 +20,6 @@ input, button, submit {
   border: none;
 }
 
-button {
+input, button {
   font-family: 'Open Sans', sans-serif;
 }
