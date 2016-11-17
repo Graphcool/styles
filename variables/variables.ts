@@ -34,6 +34,7 @@ export const orange50: string = 'rgba(207,92,54,.5)'
 export const red0: string = 'rgba(242,92,84,0)'
 export const red50: string = 'rgba(242,92,84,.5)'
 
+export const gray02: string = 'rgba(0,0,0,0.02)'
 export const gray04: string = 'rgba(0,0,0,0.04)'
 export const gray07: string = 'rgba(0,0,0,0.07)'
 export const gray10: string = 'rgba(0,0,0,0.1)'
