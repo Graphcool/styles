@@ -6,6 +6,11 @@
   /*transition: opacity $duration linear*/
 }
 
+.uppercaseLabel {
+  /* needs color*/
+  @inherit .ttu, .lhSolid, .fw6;
+}
+
 /*.uppercaseButton:hover {*/
   /*opacity: .9;*/
 /*}*/

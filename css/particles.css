@@ -264,6 +264,17 @@
 .left96 { left: $size96; }
 
 .absoluteFill { top: 0; right: 0; bottom: 0; left: 0; }
+
+/*
+
+   TRANSLATION
+
+*/
+
+.tlCenter {-webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
+.tlHCenter { -webkit-transform: translate(-50%,0); transform: translate(-50%,0); }
+.tlVCenter { -webkit-transform: translate(0,-50%); transform: translate(0,-50%); }
+
 /*
 
    DISPLAY
