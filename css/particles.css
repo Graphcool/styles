@@ -703,6 +703,8 @@
 .bgWhite30 { background-color: rgba( 255, 255, 255, .3 ); }
 .bgWhite20 { background-color: rgba( 255, 255, 255, .2 ); }
 .bgWhite10 { background-color: rgba( 255, 255, 255, .1 ); }
+.bgWhite07 { background-color: rgba( 255, 255, 255, .07 ); }
+.bgWhite04 { background-color: rgba( 255, 255, 255, .04 ); }
 
 .bgBlack { background-color: #000; }
 .bgWhite { background-color: #fff; }
