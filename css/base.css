@@ -6,7 +6,7 @@ body {
   line-height: 1.5;
 }
 
-html, body, p, a, h1, h2, h3, h4, ul {
+html, body, p, a, h1, h2, h3, h4, ul, pre, code {
   margin: 0;
   padding: 0;
   color: inherit;
@@ -20,6 +20,10 @@ input, button, submit {
   border: none;
 }
 
-input, button {
+input, button, pre {
   font-family: 'Open Sans', sans-serif;
+}
+
+code {
+  font-family: Consolas, monospace;
 }

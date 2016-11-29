@@ -488,24 +488,6 @@
 .hAuto { height: auto; }
 .hInherit { height: inherit; }
 
-.h04 { height: $size04; }
-.h06 { height: $size06; }
-.h10 { height: $size10; }
-.h16 { height: $size16; }
-.h25 { height: $size25; }
-.h38 { height: $size38; }
-.h60 { height: $size60; }
-.h96 { height: $size96; }
-
-.w04 { width: $size04; }
-.w06 { width: $size06; }
-.w10 { width: $size10; }
-.w16 { width: $size16; }
-.w25 { width: $size25; }
-.w38 { width: $size38; }
-.w60 { width: $size60; }
-.w96 { width: $size96; }
-
 /*
 
    LETTER SPACING
@@ -617,6 +599,25 @@
 .wThird { width: calc( 100% / 3 ); }
 .wTwoThirds { width: calc( 100% / 1.5 ); }
 .wAuto { width: auto; }
+
+.hS04 { height: $size04; }
+.hS06 { height: $size06; }
+.hS10 { height: $size10; }
+.hS16 { height: $size16; }
+.hS25 { height: $size25; }
+.hS38 { height: $size38; }
+.hS60 { height: $size60; }
+.hS96 { height: $size96; }
+
+.wS04 { width: $size04; }
+.wS06 { width: $size06; }
+.wS10 { width: $size10; }
+.wS16 { width: $size16; }
+.wS25 { width: $size25; }
+.wS38 { width: $size38; }
+.wS60 { width: $size60; }
+.wS96 { width: $size96; }
+
 /*
 
     OVERFLOW
