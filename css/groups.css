@@ -2,13 +2,13 @@
 
 .uppercaseButton {
   /* needs background and color additionally */
-  @inherit .ttu, .pa10, .lhSolid, .br2, .f16, .fw6, .pointer, .dim, .nowrap;
+  @inherit .ttu, .pa10, .lhSolid, .br2, .f16, .fw6, .pointer, .dim, .nowrap, .tracked;
   /*transition: opacity $duration linear*/
 }
 
 .uppercaseLabel {
   /* needs color*/
-  @inherit .ttu, .lhSolid, .fw6, .nowrap;
+  @inherit .ttu, .lhSolid, .fw6, .nowrap, .tracked;
 }
 
 /*.uppercaseButton:hover {*/
