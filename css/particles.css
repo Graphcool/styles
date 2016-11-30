@@ -699,6 +699,11 @@
 .green { color: rgba(39,174,96,1); }
 .green30 { color: rgba(39,174,96,0.3); }
 
+.lightgreen10 { color: $lightGreen10 }
+.lightgreen20 { color: $lightGreen20 }
+.lightgreen30 { color: $lightGreen30 }
+.lightgreen50 { color: $lightGreen50 }
+
 /* Background colors */
 .bgTransparent { background-color: transparent; }
 
