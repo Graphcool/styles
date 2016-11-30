@@ -11,6 +11,13 @@
   @inherit .ttu, .lhSolid, .fw6, .nowrap, .tracked;
 }
 
+.overlay {
+  @inherit .bgWhite, .br2, .overflowHidden, .relative;
+  box-shadow: 0 1px 10px 0 rgba(0,0,0,0.15);
+  z-index: 1000;
+
+}
+
 /*.uppercaseButton:hover {*/
   /*opacity: .9;*/
 /*}*/
