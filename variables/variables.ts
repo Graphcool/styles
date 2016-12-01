@@ -95,6 +95,6 @@ export const duration: string = '.1s'
 
 // Homepage Constants
 
-export const fontSize32: string = '32px'
-export const fontSize30: string = '30px'
-export const fontSize20: string = '20px'
+export const size32: string = '32px'
+export const size30: string = '30px'
+export const size20: string = '20px'

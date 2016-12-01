@@ -952,11 +952,12 @@
 
 .fInherit {font-size: inherit; }
 
+
 /* Additional Fontsizes for Homepage */
 
-.hf32 { font-size: $fontSize32 }
-.hf30 { font-size: $fontSize30 }
-.hf20 { font-size: $fontSize20 }
+.hf32 { font-size: $size32 }
+.hf30 { font-size: $size30 }
+.hf20 { font-size: $size20 }
 
 /*
 
