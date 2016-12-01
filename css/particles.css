@@ -233,6 +233,9 @@
 .top60 { top: $size60; }
 .top96 { top: $size96; }
 
+.top50 { top: 50%; }
+.top100 { top: 100%; }
+
 .right0 { right: 0; }
 .right4 { right: $size04; }
 .right6 { right: $size06; }
@@ -242,6 +245,9 @@
 .right38 { right: $size38; }
 .right60 { right: $size60; }
 .right96 { right: $size96; }
+
+.right50 { right: 50%; }
+.right100 { right: 100%; }
 
 .bottom0 { bottom: 0; }
 .bottom4 { bottom: $size04; }
@@ -253,6 +259,9 @@
 .bottom60 { bottom: $size60; }
 .bottom96 { bottom: $size96; }
 
+.bottom50 { bottom: 50%; }
+.bottom100 { bottom: 100%; }
+
 .left0 { left: 0; }
 .left4 { left: $size04; }
 .left6 { left: $size06; }
@@ -262,6 +271,9 @@
 .left38 { left: $size38; }
 .left60 { left: $size60; }
 .left96 { left: $size96; }
+
+.left50 { left: 50%; }
+.left100 { left: 100%; }
 
 .absoluteFill { top: 0; right: 0; bottom: 0; left: 0; }
 
