@@ -711,6 +711,7 @@
 .green { color: rgba(39,174,96,1); }
 .green30 { color: rgba(39,174,96,0.3); }
 
+.lightgreen05 { color: $lightGreen05 }
 .lightgreen10 { color: $lightGreen10 }
 .lightgreen20 { color: $lightGreen20 }
 .lightgreen30 { color: $lightGreen30 }
@@ -762,6 +763,7 @@
 .bgGreen80 { background-color: rgba(39,174,96,0.8); }
 .bgGreen90 { background-color: rgba(39,174,96,0.9); }
 
+.bgLightgreen05 { background-color: $lightGreen05 }
 .bgLightgreen10 { background-color: $lightGreen10 }
 .bgLightgreen20 { background-color: $lightGreen20 }
 .bgLightgreen30 { background-color: $lightGreen30 }
