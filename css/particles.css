@@ -711,6 +711,7 @@
 .green { color: rgba(39,174,96,1); }
 .green30 { color: rgba(39,174,96,0.3); }
 
+.lightgreen05 { color: $lightGreen05 }
 .lightgreen10 { color: $lightGreen10 }
 .lightgreen20 { color: $lightGreen20 }
 .lightgreen30 { color: $lightGreen30 }
@@ -763,6 +764,7 @@
 .bgGreen90 { background-color: rgba(39,174,96,0.9); }
 
 .bgLightergreen { background-color: $lighterGreen }
+.bgLightgreen05 { background-color: $lightGreen05 }
 .bgLightgreen10 { background-color: $lightGreen10 }
 .bgLightgreen20 { background-color: $lightGreen20 }
 .bgLightgreen30 { background-color: $lightGreen30 }
@@ -881,6 +883,7 @@
 .ma38 { margin: $size38; }
 .ma60 { margin: $size60; }
 .ma96 { margin: $size96; }
+.maAuto { margin: auto; }
 
 /*Margin horizonal*/
 .mh0 { margin-left: 0; margin-right: 0; }
@@ -892,6 +895,7 @@
 .mh38 { margin-left: $size38; margin-right: $size38; }
 .mh60 { margin-left: $size60; margin-right: $size60; }
 .mh96 { margin-left: $size96; margin-right: $size96; }
+.mhAuto { margin-left: auto; margin-right: auto; }
 
 /*Margin vertical*/
 .mv0 { margin-top: 0; margin-bottom: 0; }
@@ -903,6 +907,7 @@
 .mv38 { margin-top: $size38; margin-bottom: $size38; }
 .mv60 { margin-top: $size60; margin-bottom: $size60; }
 .mv96 { margin-top: $size96; margin-bottom: $size96; }
+.mvAuto { margin-top: auto; margin-bottom: auto; }
 
 /*Margin left*/
 .mla { margin-right: auto; }
@@ -915,6 +920,7 @@
 .ml38 { margin-left: $size38; }
 .ml60 { margin-left: $size60; }
 .ml96 { margin-left: $size96; }
+.mlAuto { margin-left: auto; }
 
 /*Margin right*/
 .mra { margin-right: auto; }
@@ -927,6 +933,7 @@
 .mr38 { margin-right: $size38; }
 .mr60 { margin-right: $size60; }
 .mr96 { margin-right: $size96; }
+.mrAuto { margin-right: auto; }
 
 /*Margin top*/
 .mt0 { margin-top: 0; }
@@ -938,6 +945,7 @@
 .mt38 { margin-top: $size38; }
 .mt60 { margin-top: $size60; }
 .mt96 { margin-top: $size96; }
+.mtAuto { margin-top: auto; }
 
 /*Margin bottom*/
 .mb0 { margin-bottom: 0; }
@@ -949,6 +957,7 @@
 .mb38 { margin-bottom: $size38; }
 .mb60 { margin-bottom: $size60; }
 .mb96 { margin-bottom: $size96; }
+.mbAuto { margin-bottom: auto; }
 
 /*Font Size*/
 .f12 { font-size: $size12; }
