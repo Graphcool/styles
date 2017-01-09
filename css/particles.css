@@ -762,6 +762,7 @@
 .bgGreen80 { background-color: rgba(39,174,96,0.8); }
 .bgGreen90 { background-color: rgba(39,174,96,0.9); }
 
+.bgLightergreen { background-color: $lighterGreen }
 .bgLightgreen10 { background-color: $lightGreen10 }
 .bgLightgreen20 { background-color: $lightGreen20 }
 .bgLightgreen30 { background-color: $lightGreen30 }
