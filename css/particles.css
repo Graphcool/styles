@@ -703,6 +703,7 @@
 .white { color: #fff; }
 .black { color: #000; }
 .blue { color: $blue; }
+.lightBlue { color: $lightBlue; }
 .darkBlue { color: $darkBlue; }
 .darkerBlue { color: $darkerBlue; }
 .orange { color: $orange; }

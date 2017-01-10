@@ -9,6 +9,7 @@ export const orange: string = 'rgba(207,92,54,1)'
 export const red: string = 'rgba(242,92,84,1)'
 export const accent: string = '#00b861' // = green !
 export const lightGreen: string = 'rgba(42,189,60,1)'
+export const lightBlue: string = 'rgba(74,183,255,1)'
 
 export const lightYellow: string = 'rgba(252,246,169,1)'
 export const lightBrown: string = 'rgba(209,167,0,1)'
