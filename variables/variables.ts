@@ -26,6 +26,7 @@ export const lightGreen30: string = 'rgba(42,189,60,.3)'
 export const lightGreen50: string = 'rgba(42,189,60,.5)'
 
 export const blue0: string = 'rgba(42,126,210,0)'
+export const blue20: string = 'rgba(42,126,210,.5)'
 export const blue50: string = 'rgba(42,126,210,.5)'
 export const blue80: string = 'rgba(42,126,210,.8)'
 export const darkBlue0: string = 'rgba(23,42,58,0)'
@@ -36,6 +37,8 @@ export const orange0: string = 'rgba(207,92,54,0)'
 export const orange50: string = 'rgba(207,92,54,.5)'
 export const red0: string = 'rgba(242,92,84,0)'
 export const red50: string = 'rgba(242,92,84,.5)'
+
+export const darkBlueGray: string = 'rgba(9,20,28,1)'
 
 export const gray02: string = 'rgba(0,0,0,0.02)'
 export const gray04: string = 'rgba(0,0,0,0.04)'
@@ -61,6 +64,13 @@ export const white60: string = 'rgba(255,255,255,0.6)'
 export const white70: string = 'rgba(255,255,255,0.7)'
 export const white80: string = 'rgba(255,255,255,0.8)'
 export const white90: string = 'rgba(255,255,255,0.9)'
+
+export const purple: string = 'rgba(164,3,111,1)'
+export const purple20: string = 'rgba(164,3,111,.2)'
+
+export const lightOrange: string = 'rgba(241,143,1,1)'
+export const lightOrange20: string = 'rgba(241,143,1,.2)'
+export const lightGray: string = 'rgba(195,191,196)'
 
 // Permission Colors
 export const pblue: string = 'rgba(74,144,226,1)'
