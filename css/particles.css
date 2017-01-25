@@ -784,6 +784,8 @@
 .bgPlightgreen50 { background-color: $plightgreen50 }
 
 .bgLightGray { background-color: $lightGray; }
+.bgPurple { background-color: $purple; }
+.bgPurple20 { background-color: $purple20; }
 
 /*
    SPACING
