@@ -1,6 +1,6 @@
 {
   "name": "graphcool-styles",
-  "version": "0.0.91",
+  "version": "0.0.92",
   "description": "Shared style resources between Graphcool projects",
   "main": "dist/build.js",
   "files": [
@@ -13,7 +13,7 @@
     "test": "tslint {components,variables}/**/*.ts{,x}",
     "bump": "npm version patch --no-git-tag-version && git add package.json",
     "prepublish": "npm run build",
-    "build": "tcm css -c -o dist && tsc -d --jsx react --lib dom,es2015 components/Icon/Icon.tsx variables/variables.ts --outDir dist && NODE_ENV=production webpack --config webpack.config.js"
+    "build": "tcm css -c -o dist && tsc -d --jsx react --lib dom,es2015 components/Icon/Icon.tsx variables/variables.ts --outDir dist && NODE_ENV=production webpack --config webpack.config.js && cp css/base.css dist/base.css"
   },
   "pre-commit": [
     "test",
