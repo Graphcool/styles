@@ -26,7 +26,7 @@ export const lightGreen30: string = 'rgba(42,189,60,.3)'
 export const lightGreen50: string = 'rgba(42,189,60,.5)'
 
 export const blue0: string = 'rgba(42,126,210,0)'
-export const blue20: string = 'rgba(42,126,210,.5)'
+export const blue20: string = 'rgba(42,126,210,.2)'
 export const blue50: string = 'rgba(42,126,210,.5)'
 export const blue80: string = 'rgba(42,126,210,.8)'
 export const darkBlue0: string = 'rgba(23,42,58,0)'
