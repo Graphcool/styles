@@ -644,6 +644,20 @@
 .overflowYHidden { overflow-y: hidden; }
 .overflowYScroll { overflow-y: scroll; }
 .overflowYAuto { overflow-y: auto; }
+
+
+/*
+    Do not show the scrollbar.
+*/
+.nosb {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+
+.nosb::-webkit-scrollbar {
+    display: none;
+}
+
 /*
 
    POSITIONING
