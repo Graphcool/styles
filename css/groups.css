@@ -2,7 +2,7 @@
 
 .uppercaseButton {
   /* needs background and color additionally */
-  @inherit .ttu, .pa10, .lhSolid, .br2, .f16, .fw6, .pointer, .dim, .nowrap, .tracked;
+  @inherit .ttu, .pa10, .lhSolid, .br2, .f16, .fw6, .pointer, .nowrap, .tracked;
   /*transition: opacity $duration linear*/
 }
 
