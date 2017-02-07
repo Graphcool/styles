@@ -12,6 +12,7 @@ export const lightGreen: string = 'rgba(42,189,60,1)'
 export const lightBlue: string = 'rgba(74,183,255,1)'
 
 export const lightYellow: string = 'rgba(252,246,169,1)'
+export const lightYellow20: string = 'rgba(252,246,169,0.2)'
 export const lightBrown: string = 'rgba(209,167,0,1)'
 export const toggleGreen: string = 'rgba(126, 211, 33, 1)'
 
