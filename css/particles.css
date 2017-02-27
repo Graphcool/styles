@@ -905,6 +905,7 @@
 .pb4 { padding-bottom: $size04; }
 .pb6 { padding-bottom: $size06; }
 .pb10 { padding-bottom: $size10; }
+.pb12 { padding-bottom: $size12; }
 .pb16 { padding-bottom: $size16; }
 .pb20 { padding-bottom: $size20; }
 .pb25 { padding-bottom: $size25; }
