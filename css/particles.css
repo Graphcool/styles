@@ -613,7 +613,9 @@
 .hS04 { height: $size04; }
 .hS06 { height: $size06; }
 .hS10 { height: $size10; }
+.hS12 { height: $size12; }
 .hS16 { height: $size16; }
+.hS20 { height: $size20; }
 .hS25 { height: $size25; }
 .hS38 { height: $size38; }
 .hS60 { height: $size60; }
@@ -622,7 +624,9 @@
 .wS04 { width: $size04; }
 .wS06 { width: $size06; }
 .wS10 { width: $size10; }
+.wS12 { width: $size12; }
 .wS16 { width: $size16; }
+.wS20 { width: $size20; }
 .wS25 { width: $size25; }
 .wS38 { width: $size38; }
 .wS60 { width: $size60; }
