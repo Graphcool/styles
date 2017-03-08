@@ -614,7 +614,9 @@
 .hS04 { height: $size04; }
 .hS06 { height: $size06; }
 .hS10 { height: $size10; }
+.hS12 { height: $size12; }
 .hS16 { height: $size16; }
+.hS20 { height: $size20; }
 .hS25 { height: $size25; }
 .hS38 { height: $size38; }
 .hS60 { height: $size60; }
@@ -623,7 +625,9 @@
 .wS04 { width: $size04; }
 .wS06 { width: $size06; }
 .wS10 { width: $size10; }
+.wS12 { width: $size12; }
 .wS16 { width: $size16; }
+.wS20 { width: $size20; }
 .wS25 { width: $size25; }
 .wS38 { width: $size38; }
 .wS60 { width: $size60; }
@@ -828,7 +832,9 @@
 .pa4 { padding: $size04; }
 .pa6 { padding: $size06; }
 .pa10 { padding: $size10; }
+.pa12 { padding: $size12; }
 .pa16 { padding: $size16; }
+.pa20 { padding: $size20; }
 .pa25 { padding: $size25; }
 .pa38 { padding: $size38; }
 .pa60 { padding: $size60; }
@@ -839,7 +845,9 @@
 .ph4 { padding-left: $size04; padding-right: $size04; }
 .ph6 { padding-left: $size06; padding-right: $size06; }
 .ph10 { padding-left: $size10; padding-right: $size10; }
+.ph12 { padding-left: $size12; padding-right: $size12; }
 .ph16 { padding-left: $size16; padding-right: $size16; }
+.ph20 { padding-left: $size20; padding-right: $size20; }
 .ph25 { padding-left: $size25; padding-right: $size25; }
 .ph38 { padding-left: $size38; padding-right: $size38; }
 .ph60 { padding-left: $size60; padding-right: $size60; }
@@ -852,7 +860,9 @@
 /* not using the $size8 as this is only needed for an edge case in the console */
 .pv8 { padding-top: 8px; padding-bottom: 8px; }
 .pv10 { padding-top: $size10; padding-bottom: $size10; }
+.pv12 { padding-top: $size12; padding-bottom: $size12; }
 .pv16 { padding-top: $size16; padding-bottom: $size16; }
+.pv20 { padding-top: $size20; padding-bottom: $size20; }
 .pv25 { padding-top: $size25; padding-bottom: $size25; }
 .pv38 { padding-top: $size38; padding-bottom: $size38; }
 .pv60 { padding-top: $size60; padding-bottom: $size60; }
@@ -863,6 +873,7 @@
 .pl4 { padding-left: $size04; }
 .pl6 { padding-left: $size06; }
 .pl10 { padding-left: $size10; }
+.pl12 { padding-left: $size12; }
 .pl16 { padding-left: $size16; }
 .pl25 { padding-left: $size25; }
 .pl38 { padding-left: $size38; }
@@ -874,7 +885,9 @@
 .pr4 { padding-right: $size04; }
 .pr6 { padding-right: $size06; }
 .pr10 { padding-right: $size10; }
+.pr12 { padding-right: $size12; }
 .pr16 { padding-right: $size16; }
+.pr20 { padding-right: $size20; }
 .pr25 { padding-right: $size25; }
 .pr38 { padding-right: $size38; }
 .pr60 { padding-right: $size60; }
@@ -885,7 +898,9 @@
 .pt4 { padding-top: $size04; }
 .pt6 { padding-top: $size06; }
 .pt10 { padding-top: $size10; }
+.pt12 { padding-top: $size12; }
 .pt16 { padding-top: $size16; }
+.pt20 { padding-top: $size20; }
 .pt25 { padding-top: $size25; }
 .pt38 { padding-top: $size38; }
 .pt60 { padding-top: $size60; }
@@ -896,7 +911,9 @@
 .pb4 { padding-bottom: $size04; }
 .pb6 { padding-bottom: $size06; }
 .pb10 { padding-bottom: $size10; }
+.pb12 { padding-bottom: $size12; }
 .pb16 { padding-bottom: $size16; }
+.pb20 { padding-bottom: $size20; }
 .pb25 { padding-bottom: $size25; }
 .pb38 { padding-bottom: $size38; }
 .pb60 { padding-bottom: $size60; }
@@ -908,7 +925,9 @@
 .ma4 { margin: $size04; }
 .ma6 { margin: $size06; }
 .ma10 { margin: $size10; }
+.ma12 { margin: $size12; }
 .ma16 { margin: $size16; }
+.ma20 { margin: $size20; }
 .ma25 { margin: $size25; }
 .ma38 { margin: $size38; }
 .ma60 { margin: $size60; }
@@ -920,7 +939,9 @@
 .mh4 { margin-left: $size04; margin-right: $size04; }
 .mh6 { margin-left: $size06; margin-right: $size06; }
 .mh10 { margin-left: $size10; margin-right: $size10; }
+.mh12 { margin-left: $size12; margin-right: $size12; }
 .mh16 { margin-left: $size16; margin-right: $size16; }
+.mh20 { margin-left: $size20; margin-right: $size20; }
 .mh25 { margin-left: $size25; margin-right: $size25; }
 .mh38 { margin-left: $size38; margin-right: $size38; }
 .mh60 { margin-left: $size60; margin-right: $size60; }
@@ -932,7 +953,9 @@
 .mv4 { margin-top: $size04; margin-bottom: $size04; }
 .mv6 { margin-top: $size06; margin-bottom: $size06; }
 .mv10 { margin-top: $size10; margin-bottom: $size10; }
+.mv12 { margin-top: $size12; margin-bottom: $size12; }
 .mv16 { margin-top: $size16; margin-bottom: $size16; }
+.mv20 { margin-top: $size20; margin-bottom: $size20; }
 .mv25 { margin-top: $size25; margin-bottom: $size25; }
 .mv38 { margin-top: $size38; margin-bottom: $size38; }
 .mv60 { margin-top: $size60; margin-bottom: $size60; }
@@ -945,7 +968,9 @@
 .ml4 { margin-left: $size04; }
 .ml6 { margin-left: $size06; }
 .ml10 { margin-left: $size10; }
+.ml12 { margin-left: $size12; }
 .ml16 { margin-left: $size16; }
+.ml20 { margin-left: $size20; }
 .ml25 { margin-left: $size25; }
 .ml38 { margin-left: $size38; }
 .ml60 { margin-left: $size60; }
@@ -958,7 +983,9 @@
 .mr4 { margin-right: $size04; }
 .mr6 { margin-right: $size06; }
 .mr10 { margin-right: $size10; }
+.mr12 { margin-right: $size12; }
 .mr16 { margin-right: $size16; }
+.mr20 { margin-right: $size20; }
 .mr25 { margin-right: $size25; }
 .mr38 { margin-right: $size38; }
 .mr60 { margin-right: $size60; }
@@ -970,7 +997,9 @@
 .mt4 { margin-top: $size04; }
 .mt6 { margin-top: $size06; }
 .mt10 { margin-top: $size10; }
+.mt12 { margin-top: $size12; }
 .mt16 { margin-top: $size16; }
+.mt20 { margin-top: $size20; }
 .mt25 { margin-top: $size25; }
 .mt38 { margin-top: $size38; }
 .mt60 { margin-top: $size60; }
@@ -982,7 +1011,9 @@
 .mb4 { margin-bottom: $size04; }
 .mb6 { margin-bottom: $size06; }
 .mb10 { margin-bottom: $size10; }
+.mb12 { margin-bottom: $size12; }
 .mb16 { margin-bottom: $size16; }
+.mb20 { margin-bottom: $size20; }
 .mb25 { margin-bottom: $size25; }
 .mb38 { margin-bottom: $size38; }
 .mb60 { margin-bottom: $size60; }
