@@ -76,6 +76,7 @@
 .bBlack05 { border-color: rgba( 0, 0, 0, .05 ); }
 
 .bGreen { border-color: $green; }
+.bGreen50 { border-color: $green50; }
 .bBlue { border-color: $blue; }
 .bDarkBlue { border-color: $darkBlue; }
 .bDarkerBlue { border-color: $darkerBlue; }
@@ -727,6 +728,7 @@
 
 .green { color: rgba(39,174,96,1); }
 .green30 { color: rgba(39,174,96,0.3); }
+.green50 { color: rgba(39,174,96,0.5); }
 
 .lightgreen05 { color: $lightGreen05 }
 .lightgreen10 { color: $lightGreen10 }
