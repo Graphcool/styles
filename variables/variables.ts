@@ -74,7 +74,10 @@ export const purple: string = 'rgba(164,3,111,1)'
 export const purple20: string = 'rgba(164,3,111,.2)'
 
 export const lightOrange: string = 'rgba(241,143,1,1)'
+export const lightOrange10: string = 'rgba(241,143,1,.1)'
 export const lightOrange20: string = 'rgba(241,143,1,.2)'
+export const lightOrange30: string = 'rgba(241,143,1,.3)'
+
 export const lightGray: string = 'rgba(195,191,196)'
 
 // Permission Colors

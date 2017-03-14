@@ -85,6 +85,11 @@
 .bRed20 { border-color: $red20; }
 .bRed30 { border-color: $red30; }
 
+.bLightOrange { border-color: $lightOrange; }
+.bLightOrange10 { border-color: $lightOrange10; }
+.bLightOrange20 { border-color: $lightOrange20; }
+.bLightOrange30 { border-color: $lightOrange30; }
+
 /*
 
    BORDER RADIUS
@@ -790,7 +795,9 @@
 .bgrRed { background-color: $red; }
 
 .bgLightOrange { background-color: $lightOrange; }
+.bgLightOrange10 { background-color: $lightOrange10; }
 .bgLightOrange20 { background-color: $lightOrange20; }
+.bgLightOrange30 { background-color: $lightOrange30; }
 .bgDarkBlueGray { background-color: $darkBlueGray }
 
 .bgGreen { background-color: rgba(39,174,96,1); }
