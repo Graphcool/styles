@@ -80,6 +80,10 @@
 .bBlue { border-color: $blue; }
 .bDarkBlue { border-color: $darkBlue; }
 .bDarkerBlue { border-color: $darkerBlue; }
+.bRed { border-color: $red; }
+.bRed10 { border-color: $red10; }
+.bRed20 { border-color: $red20; }
+.bRed30 { border-color: $red30; }
 
 /*
 
@@ -776,6 +780,11 @@
 .bgDarkBlue { background-color: $darkBlue; }
 .bgDarkerBlue { background-color: $darkerBlue; }
 .bgOrange { background-color: $orange; }
+
+.bgRed { background-color: $red; }
+.bgRed10 { background-color: $red10; }
+
+/*TODO: check if bgrRed is used somewhere*/
 .bgrRed { background-color: $red; }
 
 .bgLightOrange { background-color: $lightOrange; }
