@@ -391,6 +391,8 @@
 
 */
 .sansSerif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
+
+/*TODO: change font-family globally */
 .code { font-family: Consolas, monaco, monospace; }
 
 /*
@@ -437,7 +439,7 @@
 /*.fw2 { font-weight: 200; }*/
 .fw3 { font-weight: 300; }
 .fw4 { font-weight: 400; }
-/*.fw5 { font-weight: 500; }*/
+.fw5 { font-weight: 500; }
 .fw6 { font-weight: 600; }
 .fw7 { font-weight: 700; }
 /*.fw8 { font-weight: 800; }*/
