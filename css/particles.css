@@ -786,6 +786,7 @@
 .bgBlue20 { background-color: $blue20; }
 .bgDarkBlue { background-color: $darkBlue; }
 .bgDarkerBlue { background-color: $darkerBlue; }
+.bgDarkestBlue { background-color: $darkestBlue; }
 .bgOrange { background-color: $orange; }
 
 .bgRed { background-color: $red; }

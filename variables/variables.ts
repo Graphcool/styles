@@ -5,6 +5,7 @@ export const green: string = 'rgba(39,174,96,1)'
 export const blue: string = 'rgba(42,126,210,1)'
 export const darkBlue: string = 'rgba(23,42,58,1)'
 export const darkerBlue: string = 'rgba(15,32,46,1)'
+export const darkestBlue: string = 'rgb(11,20,28)'
 export const orange: string = 'rgba(207,92,54,1)'
 export const red: string = 'rgba(242,92,84,1)'
 export const accent: string = '#00b861' // = green !
