@@ -1,6 +1,6 @@
 {
   "name": "graphcool-styles",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "Shared style resources between Graphcool projects",
   "main": "dist/build.js",
   "files": [
@@ -45,6 +45,7 @@
     "react": "^0.15.0"
   },
   "dependencies": {
+    "graphcool-styles": "0.1.8",
     "html-webpack-plugin": "^2.24.1",
     "interactive": "^0.1.9",
     "object-assign": "^4.1.0",

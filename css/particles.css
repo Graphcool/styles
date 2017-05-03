@@ -535,6 +535,9 @@
      -l  = large
 
 */
+.mono {
+  font-family: 'Source Code Pro', monospace;
+}
 .tracked { letter-spacing: 1px; }
 /*.tracked-tight { letter-spacing: -.05em; }*/
 /*.tracked-mega { letter-spacing: .25em; }*/
