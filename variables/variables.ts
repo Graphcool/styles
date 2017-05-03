@@ -35,6 +35,7 @@ export const blue80: string = 'rgba(42,126,210,.8)'
 
 export const darkBlue0: string = 'rgba(23,42,58,0)'
 export const darkBlue02 = 'rgba(23,42,58,.02)'
+export const darkBlue04 = 'rgba(23,42,58,.04)'
 export const darkBlue05 = 'rgba(23,42,58,.05)'
 export const darkBlue06 = 'rgba(23,42,58,.06)'
 export const darkBlue07 = 'rgba(23,42,58,.07)'
