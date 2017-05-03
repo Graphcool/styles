@@ -78,7 +78,21 @@
 .bGreen { border-color: $green; }
 .bGreen50 { border-color: $green50; }
 .bBlue { border-color: $blue; }
+
 .bDarkBlue { border-color: $darkBlue; }
+.bDarkBlue90 { border-color: $darkBlue90; }
+.bDarkBlue80 { border-color: $darkBlue80; }
+.bDarkBlue70 { border-color: $darkBlue70; }
+.bDarkBlue60 { border-color: $darkBlue60; }
+.bDarkBlue50 { border-color: $darkBlue50; }
+.bDarkBlue40 { border-color: $darkBlue40; }
+.bDarkBlue30 { border-color: $darkBlue30; }
+.bDarkBlue20 { border-color: $darkBlue20; }
+.bDarkBlue10 { border-color: $darkBlue10; }
+.bDarkBlue06 { border-color: $darkBlue06; }
+.bDarkBlue05 { border-color: $darkBlue05; }
+
+
 .bDarkerBlue { border-color: $darkerBlue; }
 .bRed { border-color: $red; }
 .bRed10 { border-color: $red10; }
@@ -737,7 +751,18 @@
 .purple { color: $purple; }
 .lightBlue { color: $lightBlue; }
 .darkBlue { color: $darkBlue; }
+.darkBlue90 { color: $darkBlue90; }
+.darkBlue80 { color: $darkBlue80; }
+.darkBlue70 { color: $darkBlue70; }
+.darkBlue60 { color: $darkBlue60; }
+.darkBlue50 { color: $darkBlue50; }
+.darkBlue40 { color: $darkBlue40; }
+.darkBlue30 { color: $darkBlue30; }
+.darkBlue20 { color: $darkBlue20; }
+.darkBlue10 { color: $darkBlue10; }
+
 .darkerBlue { color: $darkerBlue; }
+.darkerBlue50 { color: $darkerBlue50; }
 .orange { color: $orange; }
 .red { color: $red; }
 
@@ -785,7 +810,20 @@
 .bgBlue { background-color: $blue; }
 .bgBlue20 { background-color: $blue20; }
 .bgBlue10 { background-color: $blue10; }
+
 .bgDarkBlue { background-color: $darkBlue; }
+.bgDarkBlue90 { background-color: $darkBlue90; }
+.bgDarkBlue80 { background-color: $darkBlue80; }
+.bgDarkBlue70 { background-color: $darkBlue70; }
+.bgDarkBlue60 { background-color: $darkBlue60; }
+.bgDarkBlue50 { background-color: $darkBlue50; }
+.bgDarkBlue40 { background-color: $darkBlue40; }
+.bgDarkBlue30 { background-color: $darkBlue30; }
+.bgDarkBlue20 { background-color: $darkBlue20; }
+.bgDarkBlue10 { background-color: $darkBlue10; }
+.bgDarkBlue07 { background-color: $darkBlue07; }
+.bgDarkBlue04 { background-color: $darkBlue04; }
+
 .bgDarkerBlue { background-color: $darkerBlue; }
 .bgDarkestBlue { background-color: $darkestBlue; }
 .bgOrange { background-color: $orange; }
