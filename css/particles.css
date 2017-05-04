@@ -751,6 +751,8 @@
 .white { color: #fff; }
 .black { color: #000; }
 .blue { color: $blue; }
+.blue20 { color: $blue20; }
+.blue50 { color: $blue50; }
 .purple { color: $purple; }
 .lightBlue { color: $lightBlue; }
 .darkBlue { color: $darkBlue; }
