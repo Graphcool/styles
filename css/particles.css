@@ -1092,6 +1092,7 @@
 .f20 { font-size: 20px; }
 
 .f25 { font-size: $size25; }
+.f32 { font-size: $size32; }
 .f38 { font-size: $size38; }
 .f60 { font-size: $size60; }
 .f96 { font-size: $size96; }
