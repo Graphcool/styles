@@ -26,7 +26,15 @@ export default class Icon extends React.Component<Props, {}> {
     const fillCode = !stroke ? `fill="${color}"` : 'fill="none"'
     const strokeCode = stroke ? `stroke="${color}" stroke-width="${strokeWidth}px"` : 'stroke="none"'
     const styleCode = `style="width: ${width}px; height: ${height}px;"`
-    const html = this.props.src.replace(/<svg/, `<svg ${strokeCode} ${fillCode} ${styleCode}`)
+
+    let src = this.props.src
+
+    const match = src.match(/data:image\/svg[^,]*?(;base64)?,(.*)/)
+    if (match[1] && match[2]) {
+      src = atob(match[2])
+    }
+
+    const html = src.replace(/<svg/, `<svg ${strokeCode} ${fillCode} ${styleCode}`)
 
     const restProps = objectAssign({}, this.props)
     delete restProps.width
