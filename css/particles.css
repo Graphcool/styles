@@ -765,6 +765,17 @@
 .darkBlue20 { color: $darkBlue20; }
 .darkBlue10 { color: $darkBlue10; }
 
+.pink { color: $pink; }
+.pink90 { color: $pink90; }
+.pink80 { color: $pink80; }
+.pink70 { color: $pink70; }
+.pink60 { color: $pink60; }
+.pink50 { color: $pink50; }
+.pink40 { color: $pink40; }
+.pink30 { color: $pink30; }
+.pink20 { color: $pink20; }
+.pink10 { color: $pink10; }
+
 .darkerBlue { color: $darkerBlue; }
 .darkerBlue50 { color: $darkerBlue50; }
 .orange { color: $orange; }
@@ -828,6 +839,19 @@
 .bgDarkBlue10 { background-color: $darkBlue10; }
 .bgDarkBlue07 { background-color: $darkBlue07; }
 .bgDarkBlue04 { background-color: $darkBlue04; }
+
+.bgPink { background-color: $pink; }
+.bgPink90 { background-color: $pink90; }
+.bgPink80 { background-color: $pink80; }
+.bgPink70 { background-color: $pink70; }
+.bgPink60 { background-color: $pink60; }
+.bgPink50 { background-color: $pink50; }
+.bgPink40 { background-color: $pink40; }
+.bgPink30 { background-color: $pink30; }
+.bgPink20 { background-color: $pink20; }
+.bgPink10 { background-color: $pink10; }
+.bgPink07 { background-color: $pink07; }
+.bgPink04 { background-color: $pink04; }
 
 .bgDarkerBlue { background-color: $darkerBlue; }
 .bgDarkestBlue { background-color: $darkestBlue; }
