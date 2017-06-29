@@ -30,7 +30,7 @@ export default class Icon extends React.Component<Props, {}> {
     let src = this.props.src
 
     const match = src.match(/data:image\/svg[^,]*?(;base64)?,(.*)/)
-    if (match[1] && match[2]) {
+    if (match && match[1] && match[2]) {
       src = atob(match[2])
     }
 
