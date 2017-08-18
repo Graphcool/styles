@@ -1,6 +1,6 @@
 {
   "name": "graphcool-styles",
-  "version": "0.1.34",
+  "version": "0.1.35",
   "description": "Shared style resources between Graphcool projects",
   "main": "dist/build.js",
   "files": [
@@ -13,7 +13,8 @@
     "test": "tslint {components,variables}/**/*.ts{,x}",
     "bump": "npm version patch --no-git-tag-version && git add package.json",
     "prepublish": "npm run build",
-    "build": "tcm css -c -o dist && tsc -d --jsx react --lib dom,es2015 components/Icon/Icon.tsx variables/variables.ts --outDir dist && NODE_ENV=production webpack --config webpack.config.js; cp css/particles.css dist/particles.css"
+    "build-particles": "cat css/particles.css | postcss > dist/particles.css",
+    "build": "tcm css -c -o dist && tsc -d --jsx react --lib dom,es2015 components/Icon/Icon.tsx variables/variables.ts --outDir dist && NODE_ENV=production webpack --config webpack.config.js; npm run build-particles"
   },
   "pre-commit": [
     "test",
@@ -26,10 +27,11 @@
     "css-loader": "^0.25.0",
     "cssnano": "^3.7.7",
     "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "postcss-cli": "^4.1.0",
     "postcss-import": "8.1.0",
     "postcss-inherit": "^4.0.1",
     "postcss-loader": "^0.13.0",
-    "postcss-simple-vars": "^3.0.0",
+    "postcss-simple-vars": "^4.0.0",
     "pre-commit": "^1.1.3",
     "raw-loader": "^0.5.1",
     "react": "^15.4.0",
