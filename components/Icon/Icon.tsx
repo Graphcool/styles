@@ -13,8 +13,41 @@ export interface Props {
   [key: string]: any
 }
 
-export default class Icon extends React.Component<Props, {}> {
+interface State {
+  src: string
+}
+
+export default class Icon extends React.Component<Props, State> {
+  constructor(props) {
+    super(props)
+
+    let src = this.props.src
+
+    const match = src.match(/data:image\/svg[^,]*?(;base64)?,(.*)/)
+    if (match && match[1] && match[2]) {
+      src = atob(match[2])
+    }
+
+    if (src.match(/\.svg$/)) {
+      console.log('this is an extension')
+      this.fetch()
+    }
+
+    this.state = {
+      src,
+    }
+  }
+
+  fetch() {
+    fetch(this.props.src)
+      .then(res => res.text())
+      .then((src) => {
+        this.setState({src})
+      })
+  }
+
   render() {
+    const {src} = this.state
     const width = this.props.width || 16
     const height = this.props.height || 16
 
@@ -26,13 +59,6 @@ export default class Icon extends React.Component<Props, {}> {
     const fillCode = !stroke ? `fill="${color}"` : 'fill="none"'
     const strokeCode = stroke ? `stroke="${color}" stroke-width="${strokeWidth}px"` : 'stroke="none"'
     const styleCode = `style="width: ${width}px; height: ${height}px;"`
-
-    let src = this.props.src
-
-    const match = src.match(/data:image\/svg[^,]*?(;base64)?,(.*)/)
-    if (match && match[1] && match[2]) {
-      src = atob(match[2])
-    }
 
     const html = src.replace(/<svg/, `<svg ${strokeCode} ${fillCode} ${styleCode}`)
 
