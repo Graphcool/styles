@@ -1,6 +1,6 @@
 {
   "name": "graphcool-styles",
-  "version": "0.1.36",
+  "version": "0.1.37",
   "description": "Shared style resources between Graphcool projects",
   "main": "dist/build.js",
   "files": [
