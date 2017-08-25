@@ -38,8 +38,12 @@ export default class Icon extends React.Component<Props, State> {
     }
   }
 
-  fetch() {
-    fetch(this.props.src)
+  componentWillReceiveProps(nextProps) {
+    this.fetch(nextProps)
+  }
+
+  fetch(props = this.props) {
+    fetch(props.src)
       .then(res => res.text())
       .then((src) => {
         this.setState({src})
