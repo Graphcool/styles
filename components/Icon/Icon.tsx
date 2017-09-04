@@ -29,7 +29,6 @@ export default class Icon extends React.Component<Props, State> {
     }
 
     if (src.match(/\.svg$/)) {
-      console.log('this is an extension')
       this.fetch()
     }
 
