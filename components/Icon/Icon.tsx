@@ -14,7 +14,7 @@ export interface Props {
 }
 
 interface State {
-  src: string
+  src: string | null
 }
 
 export default class Icon extends React.Component<Props, State> {
@@ -29,6 +29,7 @@ export default class Icon extends React.Component<Props, State> {
     }
 
     if (src.match(/\.svg$/)) {
+      src = null
       this.fetch()
     }
 
@@ -51,6 +52,9 @@ export default class Icon extends React.Component<Props, State> {
 
   render() {
     const {src} = this.state
+    if (!src) {
+      return null
+    }
     const width = this.props.width || 16
     const height = this.props.height || 16
 
