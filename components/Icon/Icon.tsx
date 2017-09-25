@@ -1,5 +1,6 @@
 import * as React from 'react'
 const objectAssign: any = require('object-assign')
+import 'isomorphic-fetch'
 
 export interface Props {
   src: any
@@ -13,7 +14,7 @@ export interface Props {
   [key: string]: any
 }
 
-interface State {
+export interface State {
   src: string | null
 }
 

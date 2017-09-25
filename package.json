@@ -1,6 +1,6 @@
 {
   "name": "graphcool-styles",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Shared style resources between Graphcool projects",
   "main": "dist/build.js",
   "files": [
@@ -14,7 +14,7 @@
     "bump": "npm version patch --no-git-tag-version && git add package.json",
     "prepublish": "npm run build",
     "build-particles": "cat css/particles.css | postcss > dist/particles.css",
-    "build": "tcm css -c -o dist && tsc -d --jsx react --lib dom,es2015 components/Icon/Icon.tsx variables/variables.ts --outDir dist && NODE_ENV=production webpack --config webpack.config.js; npm run build-particles"
+    "build": "tcm css -c -o dist && tsc -d && NODE_ENV=production webpack --config webpack.config.js; npm run build-particles"
   },
   "pre-commit": [
     "test",
@@ -49,6 +49,7 @@
   "dependencies": {
     "html-webpack-plugin": "^2.24.1",
     "interactive": "^0.1.9",
+    "isomorphic-fetch": "^2.2.1",
     "object-assign": "^4.1.0",
     "react-dom": "^15.3.2",
     "webpack-dev-server": "^1.16.2"
