@@ -17,7 +17,7 @@ interface State {
   src: string | null
 }
 
-export default class Icon extends React.Component<Props, State> {
+export default class Icon extends React.PureComponent<Props, State> {
   constructor(props) {
     super(props)
 
