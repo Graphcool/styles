@@ -42,6 +42,8 @@ export default class Icon extends React.PureComponent<Props, State> {
   componentWillReceiveProps(nextProps) {
     if (nextProps.src && nextProps.src.match(/\.svg$/)) {
       this.fetch(nextProps)
+    } else {
+      this.setState({src: nextProps.src})
     }
   }
 
