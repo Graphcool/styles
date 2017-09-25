@@ -40,7 +40,9 @@ export default class Icon extends React.PureComponent<Props, State> {
   }
 
   componentWillReceiveProps(nextProps) {
-    this.fetch(nextProps)
+    if (nextProps.src && nextProps.src.match(/\.svg$/)) {
+      this.fetch(nextProps)
+    }
   }
 
   fetch(props = this.props) {
