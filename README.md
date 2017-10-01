@@ -1,4 +1,6 @@
 # styles [![npm version](https://badge.fury.io/js/graphcool-styles.svg)](https://badge.fury.io/js/graphcool-styles) [![CircleCI](https://circleci.com/gh/graphcool/styles.svg?style=svg)](https://circleci.com/gh/graphcool/styles)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/graphcool/styles.svg)](https://greenkeeper.io/)
 Shared style resources between Graphcool projects
 
 ## Development
