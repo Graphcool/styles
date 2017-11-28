@@ -19,9 +19,11 @@ export interface State {
 }
 
 export default class Icon extends React.PureComponent<Props, State> {
+  cache: { [key: string]: string }
   constructor(props) {
     super(props)
 
+    this.cache = {}
     let src = this.props.src
 
     const match = src.match(/data:image\/svg[^,]*?(;base64)?,(.*)/)
@@ -40,23 +42,32 @@ export default class Icon extends React.PureComponent<Props, State> {
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.src && nextProps.src.match(/\.svg$/)) {
+    if (
+      nextProps.src &&
+      nextProps.src.match(/\.svg$/) &&
+      nextProps.src !== this.props.src &&
+      !this.cache[nextProps.src]
+    ) {
       this.fetch(nextProps)
     } else {
-      this.setState({src: nextProps.src})
+      this.setState({ src: nextProps.src })
     }
   }
 
   fetch(props = this.props) {
+    if (this.cache && this.cache[props.src]) {
+      this.setState({ src: this.cache[props.src] })
+    }
     fetch(props.src)
       .then(res => res.text())
-      .then((src) => {
-        this.setState({src})
+      .then(src => {
+        this.cache[props.src] = src
+        this.setState({ src })
       })
   }
 
   render() {
-    const {src} = this.state
+    const { src } = this.state
     if (!src) {
       return null
     }
@@ -69,10 +80,15 @@ export default class Icon extends React.PureComponent<Props, State> {
     const rotate = this.props.rotate || 0
 
     const fillCode = !stroke ? `fill="${color}"` : 'fill="none"'
-    const strokeCode = stroke ? `stroke="${color}" stroke-width="${strokeWidth}px"` : 'stroke="none"'
+    const strokeCode = stroke
+      ? `stroke="${color}" stroke-width="${strokeWidth}px"`
+      : 'stroke="none"'
     const styleCode = `style="width: ${width}px; height: ${height}px;"`
 
-    const html = src.replace(/<svg/, `<svg ${strokeCode} ${fillCode} ${styleCode}`)
+    const html = src.replace(
+      /<svg/,
+      `<svg ${strokeCode} ${fillCode} ${styleCode}`,
+    )
 
     const restProps = objectAssign({}, this.props)
     delete restProps.width
