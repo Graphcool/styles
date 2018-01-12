@@ -41,4 +41,9 @@ export default class App extends React.Component<{}, {}> {
       </div>
     )
   }
+  componentDidMount() {
+    setTimeout(() => {
+      this.forceUpdate()
+    }, 1000)
+  }
 }
