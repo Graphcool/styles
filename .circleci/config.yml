@@ -29,7 +29,7 @@ jobs:
           name: Run Tests
           command: npm test
 
-  publish:
+  deploy:
     working_directory: ~/project
     docker:
       - image: circleci/node:6
@@ -39,7 +39,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Publish master
+          name: Login
           command:
             echo -e "$NPM_USERNAME\n$NPM_PASSWORD\n$NPM_EMAIL" | npm login
       - run:
