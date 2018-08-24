@@ -13,4 +13,3 @@ npm link
 ```sh
 npm link graphcool-styles
 ```
-

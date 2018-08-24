@@ -1,0 +1,60 @@
+version: 2
+
+jobs:
+  build:
+    working_directory: ~/project
+    docker:
+      - image: circleci/node:6
+
+    steps:
+      - checkout
+      - restore_cache:
+          name: Restore Yarn Package Cache
+          keys:
+            - yarn-packages-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install Yarn
+          command:
+            sudo npm install -g yarn
+      - run:
+          name: Install Dependencies
+          command:
+            yarn
+      - save_cache:
+          name: Save Yarn Package Cache
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+      - run:
+          name: Run Tests
+          command: npm test
+
+  publish:
+    working_directory: ~/project
+    docker:
+      - image: circleci/node:6
+    branches:
+      only: master
+
+    steps:
+      - checkout
+      - run:
+          name: Publish master
+          command:
+            echo -e "$NPM_USERNAME\n$NPM_PASSWORD\n$NPM_EMAIL" | npm login
+      - run:
+          name: Publish
+          command:
+            npm publish
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
