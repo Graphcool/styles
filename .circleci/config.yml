@@ -33,8 +33,6 @@ jobs:
     working_directory: ~/project
     docker:
       - image: circleci/node:6
-    branches:
-      only: master
 
     steps:
       - checkout
