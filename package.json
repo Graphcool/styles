@@ -42,16 +42,16 @@
     "tslint-loader": "^2.1.5",
     "typed-css-modules": "^0.1.13",
     "typescript": "^2.0.3",
-    "webpack": "^2.1.0-beta.25"
+    "webpack": "^2.1.0-beta.25",
+    "html-webpack-plugin": "^2.24.1",
+    "webpack-dev-server": "^1.16.2"
   },
   "peerDependencies": {
     "react": ">=15"
   },
   "dependencies": {
-    "html-webpack-plugin": "^2.24.1",
     "interactive": "^0.1.9",
     "isomorphic-fetch": "^2.2.1",
     "object-assign": "^4.1.0",
-    "webpack-dev-server": "^1.16.2"
   }
 }
