@@ -52,6 +52,6 @@
   "dependencies": {
     "interactive": "^0.1.9",
     "isomorphic-fetch": "^2.2.1",
-    "object-assign": "^4.1.0",
+    "object-assign": "^4.1.0"
   }
 }
